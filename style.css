@@ -1,0 +1,130 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+}
+html,
+body{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background: #e3f9ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.calculator{
+    background: #3a4452;
+    width: 50%;
+    height: 60%;
+    padding: 20px;
+    border-radius: 10px;
+}
+.calculator > form > .display > input{
+
+    width: 600px;
+    height: 30px;
+    margin-top: 0.5vmax;
+}
+.cross{
+
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    margin: 2vmax;
+}
+
+.cross > input {
+    width: 40px;
+}
+
+
+.no{
+    display: flex;
+    justify-content: space-around;
+    margin: 2vmax;
+}
+
+.no > input{
+
+    width: 40px;
+
+}
+.nos{
+    display: flex;
+    justify-content: space-around;
+    margin: 2vmax;
+
+}
+
+.nos > input{
+
+    width: 40px;
+}
+
+.numbers {
+
+    display: flex;
+    justify-content: space-around;
+    margin: 2vmax;
+}
+
+.numbers > input{
+
+    width: 40px;
+}
+
+
+.numbs > input{
+    width: 10px;
+}
+
+.last{
+    display: flex;
+    justify-content: space-around;
+    margin: 2vmax;
+
+}
+
+
+.last > input{
+
+    width: 40px;
+}
+
+.calculator > form >input {
+    border: 0;
+    outline: 0;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
+    background-color: transparent;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    margin: 10px;
+
+
+}
+.display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+
+}
+form.display input{
+    text-align: right;
+    flex: 1;
+    font-size: 45px;
+    box-shadow: none;
+}
+
+form input.equal{
+    width: 145px;
+
+} 
